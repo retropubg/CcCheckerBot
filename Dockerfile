@@ -11,7 +11,7 @@ RUN chown -R www-data:www-data /var/www/html && \
     chmod -R 755 /var/www/html
 
 # Exponer el puerto 80
-EXPOSE 80
+EXPOSE 9000
 
 # Comando para ejecutar Apache
 CMD ["apache2-foreground"]
